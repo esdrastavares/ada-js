@@ -1,0 +1,10 @@
+{
+  "testEnvironment": "node",
+  "preset": "ts-jest",
+  "coverageReporters": [
+    "json",
+    "html",
+    "lcov"
+  ],
+  "testResultsProcessor": "jest-sonar-reporter"
+}
